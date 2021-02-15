@@ -1,0 +1,22 @@
+{
+  "name": "RustSnippet",
+  "displayName": "Rust Snippet",
+  "publisher": "AyushPattnaik",
+  "description": "Completes the function syntax",
+  "icon": "logo.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "rust",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"rust fucntion boilerplate": {
+	"prefix": ["f","fn","function"],
+	"body": [
+	 		"fn (${1|main|}) {",
+			   "    println!(\"${2|Hello World!|}\");",
+			 "}"
+			"
+		],
+		"description": "function snippet"
+	 }
+}
